@@ -133,7 +133,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    margin: 0 450px;
+    margin: 0 400px;
 }
 
 /* Business Plan  */
@@ -145,6 +145,7 @@ a {
 .business-plan h2 {
     font-size: 40px;
     margin-bottom: 60px;
+    text-align: left;
 }
 
 .business-plan .fatturazione {
@@ -165,10 +166,19 @@ a {
     border: 7px solid blue;
 }
 
+/* Box container delle card  */
+
+.business-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+/* Card settings  */
 .card {
    margin-top: 50px;
    border: 1px solid #d0d0d2;
-   width: calc(100%/3 -100px);
+   width: calc((100% - 100px) / 3);
 }
 
 .card .usericon {
@@ -238,9 +248,13 @@ a {
 }
 
 
-/* Box container delle card  */
+/* card numero 4  */
+.card.card4 {
+    width: 100%;
+}
 
-.business-card {
+.card4 .card4-flex {
     display: flex;
-    gap: 50px;
+    justify-content: space-between;
+    margin-bottom: 50px;
 }
