@@ -264,15 +264,14 @@ h3 {
 
 .business-plan .partner {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 300px;
     
 }
 
 .partner img {
-    max-width: 600px;
+    max-width: 650px;
     flex-grow: 1;
-    margin-right: 50px;
 }
 
 .partner .paragraph {
@@ -288,4 +287,28 @@ h3 {
     padding: 15px;
     max-width: 200px;
     text-align: center;
+}
+
+/* Operations grid  */
+
+.operations {
+    margin-bottom: 300px;
+}
+h2 {
+    margin-bottom: 100px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.action {
+    width: calc((100% - 80px) / 3);
+}
+
+.action img {
+    align-self: center;
+    width: 100%;
 }
