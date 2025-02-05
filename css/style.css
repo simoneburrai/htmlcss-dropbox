@@ -265,6 +265,7 @@ h3 {
 .business-plan .partner {
     display: flex;
     justify-content: center;
+    margin-bottom: 300px;
     
 }
 
@@ -275,6 +276,7 @@ h3 {
 }
 
 .partner .paragraph {
+    margin-top: 80px;
     width: 40%;
     flex-shrink: 0;
     text-align: left;
