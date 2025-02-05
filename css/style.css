@@ -68,12 +68,53 @@ a {
     cursor: pointer;
 }
 
+
+/* Main 
+
+/* Jumbotron */
 .jumbotron {
     text-align: center;
     padding: 120px 350px 25px;
+    background-color: #b4d0e6;
+    margin: 0 auto;
 }
 
 .jumbotron h1 {
     font-size: 80px;
     padding-bottom: 60px;
+    text-align: left;
+}
+
+/* Jumbotron bottom part  */
+.jumbotron .jumbo-down {
+    display: flex;
+}
+
+.jumbotron .jumbo-down .paragraph {
+    width: 400px;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.jumbotron .jumbo-down .paragraph .p-element {
+    margin-bottom: 20px;
+}
+
+.jumbotron .jumbo-down .image {
+    position: absolute;
+    left: 800px;
+}
+.jumbotron .jumbo-down .image img {
+  max-width: 1000px;
+}
+
+.arrow-down {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 80px;
 }
