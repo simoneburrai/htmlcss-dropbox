@@ -1,0 +1,57 @@
+/* General Rules  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.open-sans-<uniquifier> {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+
+body {
+    font-family: "Open Sans", serif;
+}
+
+a {
+    all: unset;
+}
+
+
+
+/* Header  */
+
+.header-bar {
+    padding: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-bar .left-elements .logo {
+    align-content: center;
+}
+
+.header-bar .right-elements, 
+.header-bar .left-elements{
+    display: flex;
+    gap: 20px;
+}
+
+.header-bar .links a {
+    padding: 30px 20px;
+}
+
+.header-bar .links a:hover {
+    border-bottom: 2px solid black;
+}
