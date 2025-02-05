@@ -49,7 +49,7 @@ a {
     gap: 20px;
 }
 
-.header-bar .links a {
+.header-bar .links .link {
     padding: 30px 20px;
 }
 
@@ -57,17 +57,21 @@ a {
     border-bottom: 2px solid black;
 }
 
+/* Button Generic Settings  */
 .button {
     background-color: #0061fe;
     color: white;
-    padding: 15px 20px;
-    margin: 20px auto;
+    text-align: center;
 }
 
 .button:hover {
     background-color: #4d8cf2;
 }
 
+.header-bar .right-elements .button {
+    padding: 10px 20px;
+    margin: 20px auto;
+}
 
 /* Main 
 
@@ -105,9 +109,14 @@ a {
     margin-bottom: 20px;
 }
 
+.jumbo-down .button {
+    padding: 15px;
+}
+
 .jumbotron .jumbo-down .image {
     position: absolute;
     left: 800px;
+    top: 550px
 }
 .jumbotron .jumbo-down .image img {
   max-width: 1000px;
@@ -124,7 +133,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    margin: 0 auto;
+    margin: 0 450px;
 }
 
 /* Business Plan  */
@@ -148,55 +157,90 @@ a {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    border: 1px solid grey;
+    border: 3px solid #ececee;
 }
 
 
 .business-plan .fatturazione .circle.select {
-    border: 5px solid blue;
+    border: 7px solid blue;
 }
+
+.card {
+   margin-top: 50px;
+   border: 1px solid #d0d0d2;
+   width: calc(100%/3 -100px);
+}
+
+.card .usericon {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    border: 1px solid #d0d0d2;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+.card .plan {
+    text-align: left;
+    padding: 0px 30px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.card .plan h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.card .plan .mese {
+    color: grey;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.card .plan ul {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.card .plan li {
+    display: flex;
+    gap: 10px;
+    margin: 15px auto;
+}
+
+.card .plan .button {
+    padding: 15px 25px;
+    margin: 30px auto;
+    font-size: 15px;
+}
+
+.card .plan .oppure {
+    font-size: 20px;
+}
+
+.card .plan .acquista {
+    text-decoration: underline;
+    color: #0000ee;
+}
+
+.card .plan .line-break {
+    border: 2px solid #d0d0d2;
+    width: 15%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card .plan .check {
+    color: #0000ff;
+}
+
+
+/* Box container delle card  */
 
 .business-card {
     display: flex;
-    max-width: 1000px;
     gap: 50px;
 }
-.card {
-    width: calc(100/3 -100px);
-    list-style-type: none;
-    text-align: left;
-    padding: 10px 30px 45px;
-    border: 1px solid grey;
-    margin: 40px auto;
-}
-
-.card ul {
-    list-style-type: none;
-}
-
-.card > *{
-    padding-bottom: 40px;
-}
-
-.card .user {
-    text-align: center;
-    border: 1px solid grey;
-    width: 100%;
-}
-
-.card h3 {
-    font-size: 20px;
-}
-
-.card li {
-    list-style-type: none;
-    display: flex;
-    gap: 10px;
-    padding: 20px auto;
-    font-size: 20px;
-}
-
-.card .check {
-    color: blue;
-}
-
