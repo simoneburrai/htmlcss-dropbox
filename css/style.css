@@ -23,6 +23,7 @@ body {
 
 a {
     all: unset;
+    cursor: pointer;
 }
 
 
@@ -54,18 +55,17 @@ a {
 
 .header-bar .links .link:hover {
     border-bottom: 2px solid black;
-    cursor: pointer;
 }
 
 .button {
     background-color: #0061fe;
     color: white;
     padding: 15px 20px;
+    margin: 20px auto;
 }
 
 .button:hover {
     background-color: #4d8cf2;
-    cursor: pointer;
 }
 
 
@@ -76,7 +76,7 @@ a {
     text-align: center;
     padding: 120px 350px 25px;
     background-color: #b4d0e6;
-    margin: 0 auto;
+    margin-bottom: 200px;
 }
 
 .jumbotron h1 {
@@ -117,4 +117,46 @@ a {
     font-size: 50px;
     font-weight: bold;
     margin-top: 80px;
+}
+
+.main-centered-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+/* Business Plan  */
+.business-plan {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.business-plan h2 {
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.business-plan .fatturazione {
+    display: flex;
+    gap: 40px;
+}
+
+.business-plan .fatturazione .circle {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+
+
+.business-plan .fatturazione .circle.select {
+    border: 5px solid blue;
+}
+
+.card {
+    list-style-type: none;
+    text-align: left;
+    padding: 10px 30px 45px;
 }
