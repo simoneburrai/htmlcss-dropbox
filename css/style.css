@@ -52,6 +52,18 @@ a {
     padding: 30px 20px;
 }
 
-.header-bar .links a:hover {
+.header-bar .links .link:hover {
     border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.header-bar .links .starting-button {
+    background-color: #0061fe;
+    color: white;
+    padding: 15px 20px;
+}
+
+.header-bar .links .starting-button:hover {
+    background-color: #4d8cf2;
+    cursor: pointer;
 }
