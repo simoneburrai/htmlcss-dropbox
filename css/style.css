@@ -124,6 +124,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: start;
+    margin: 0 auto;
 }
 
 /* Business Plan  */
@@ -155,8 +156,47 @@ a {
     border: 5px solid blue;
 }
 
+.business-card {
+    display: flex;
+    max-width: 1000px;
+    gap: 50px;
+}
 .card {
+    width: calc(100/3 -100px);
     list-style-type: none;
     text-align: left;
     padding: 10px 30px 45px;
+    border: 1px solid grey;
+    margin: 40px auto;
 }
+
+.card ul {
+    list-style-type: none;
+}
+
+.card > *{
+    padding-bottom: 40px;
+}
+
+.card .user {
+    text-align: center;
+    border: 1px solid grey;
+    width: 100%;
+}
+
+.card h3 {
+    font-size: 20px;
+}
+
+.card li {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    padding: 20px auto;
+    font-size: 20px;
+}
+
+.card .check {
+    color: blue;
+}
+
