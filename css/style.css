@@ -185,7 +185,7 @@ h2 {
     display: flex;
     gap: 10px;
     justify-content: center;
-    border: 1px solid #d0d0d2;
+    border-bottom: 1px solid #d0d0d2;
     padding: 15px;
     margin-bottom: 40px;
 }
@@ -334,11 +334,11 @@ h2 {
 footer {
     background-color: black;
     color: white;
-    height: 800px;
     border-left: 3px solid white;
-    font-size: 15px;
+    font-size: 20px;
     padding-left: 300px;
     padding-right: 300px;
+    padding-bottom: 50px;
 }
 
 .footer-links {
@@ -360,4 +360,15 @@ footer li {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: left;
+}
+footer .line-break {
+    color: #d0d0d2;
+    margin-bottom: 50px;
+}
+
+footer .language {
+    color: #d0d0d2;
+}
+footer .language .hearth {
+    margin-right: 5px;
 }
