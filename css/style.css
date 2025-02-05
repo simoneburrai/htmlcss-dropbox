@@ -57,13 +57,23 @@ a {
     cursor: pointer;
 }
 
-.header-bar .links .starting-button {
+.button {
     background-color: #0061fe;
     color: white;
     padding: 15px 20px;
 }
 
-.header-bar .links .starting-button:hover {
+.button:hover {
     background-color: #4d8cf2;
     cursor: pointer;
+}
+
+.jumbotron {
+    text-align: center;
+    padding: 120px 350px 25px;
+}
+
+.jumbotron h1 {
+    font-size: 80px;
+    padding-bottom: 60px;
 }
