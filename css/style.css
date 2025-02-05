@@ -68,9 +68,8 @@ a {
     background-color: #4d8cf2;
 }
 
-.header-bar .right-elements .button {
+.header-bar .button {
     padding: 10px 20px;
-    margin: 20px auto;
 }
 
 /* Main 
@@ -142,7 +141,7 @@ a {
     margin: 0 auto;
 }
 
-.business-plan h2 {
+h2 {
     font-size: 40px;
     margin-bottom: 60px;
     text-align: left;
@@ -200,7 +199,7 @@ a {
     
 }
 
-.card .plan h3 {
+h3 {
     font-size: 30px;
     margin-bottom: 30px;
 }
@@ -265,4 +264,26 @@ a {
 
 .business-plan .partner {
     display: flex;
+    justify-content: center;
+    
+}
+
+.partner img {
+    max-width: 600px;
+    flex-grow: 1;
+    margin-right: 50px;
+}
+
+.partner .paragraph {
+    width: 40%;
+    flex-shrink: 0;
+    text-align: left;
+}
+
+.partner .paragraph .button2 {
+    margin-top: 30px;
+    border: 1px solid black;
+    padding: 15px;
+    max-width: 200px;
+    text-align: center;
 }
