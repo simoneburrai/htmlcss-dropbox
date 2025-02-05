@@ -172,6 +172,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
+    margin-bottom: 250px;
 }
 
 /* Card settings  */
@@ -257,4 +258,11 @@ a {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+}
+
+
+/* Partner section  */
+
+.business-plan .partner {
+    display: flex;
 }
