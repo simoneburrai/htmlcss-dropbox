@@ -23,21 +23,16 @@ a {
 /* Header  */
 
 .header-bar {
-    padding: 25px;
+    padding: 30px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
-
-
-.header-bar .left-elements .logo {
-    align-content: center;
 }
 
 .header-bar .right-elements, 
 .header-bar .left-elements{
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 
@@ -51,13 +46,14 @@ a {
 
 /* Button Generic Settings  */
 .button {
+    display: inline-block;
     background-color: #0061fe;
     color: white;
     text-align: center;
 }
 
 .button:hover {
-    background-color: #4d8cf2;
+    filter: brightness(1.4);
 }
 
 .header-bar .button {
@@ -111,7 +107,7 @@ a {
 }
 
 .jumbo-down .button {
-    padding: 10px;
+    padding: 20px;
 }
 
 
@@ -197,14 +193,17 @@ h3 {
     margin-bottom: 30px;
 }
 
+
 .card .plan .mese {
     color: grey;
     margin-top: 15px;
-    margin-bottom: 50px;
 }
 
 .card .plan ul {
     list-style-type: none;
+}
+.card .plan .benefit{
+    margin-top: 50px;
 }
 
 .card .plan li {
@@ -214,8 +213,10 @@ h3 {
 }
 
 .card .plan .button {
-    padding: 15px 25px;
+    width: 100%;
     margin: 30px auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .card .plan .oppure {
@@ -244,12 +245,22 @@ h3 {
     width: 100%;
 }
 
-.card4 .card4-flex {
+.card4-flex {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    align-items: center;
+}
+.card.card4 h3 {
+    margin-bottom: 0px;
 }
 
+.card.card4 .button{
+    padding: 15px 10px;
+}
+
+.card.card4 p {
+    margin-top: 50px;
+}
 
 /* Partner section  */
 
@@ -257,11 +268,11 @@ h3 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 300px;
-    
+    gap: 50px;
 }
 
 .partner img {
-    max-width: 650px;
+    width: 60%;
     flex-grow: 1;
 }
 
@@ -273,6 +284,7 @@ h3 {
 }
 
 .partner .paragraph .button2 {
+    cursor: pointer;
     margin-top: 30px;
     border: 1px solid black;
     padding: 15px;
