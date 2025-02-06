@@ -23,8 +23,6 @@ a {
 /* Header  */
 
 .header-bar {
-    padding: 30px;
-    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -36,7 +34,12 @@ a {
     gap: 20px;
 }
 
+.header-bar .logo img {
+    display: inline-block;
+}
+
 .header-bar .links .link {
+    display: inline-block;
     padding: 30px 20px;
 }
 
@@ -243,6 +246,7 @@ h3 {
 /* card numero 4  */
 .card.card4 {
     width: 100%;
+    padding: 0 20px;
 }
 
 .card4-flex {
