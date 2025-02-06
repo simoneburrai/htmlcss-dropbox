@@ -7,18 +7,9 @@
 }
 
 
-.open-sans-<uniquifier> {
-    font-family: "Open Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
-
-
 body {
     font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
 }
 
 a {
@@ -77,13 +68,18 @@ a {
 /* Jumbotron */
 .jumbotron {
     text-align: center;
-    padding: 120px 350px 25px;
+    padding: 0 350px 25px;
     background-color: #b4d0e6;
     margin-bottom: 200px;
 }
 
+.jumbo-container {
+    position: relative;
+    top:100px;
+}
+
 .jumbotron h1 {
-    font-size: 80px;
+    font-size: 60px;
     padding-bottom: 60px;
     text-align: left;
 }
@@ -93,38 +89,35 @@ a {
     display: flex;
 }
 
-.jumbotron .jumbo-down .paragraph {
-    width: 400px;
-    flex-shrink: 0;
-    text-align: left;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
+.jumbotron .jumbo-down .image {
+    width: 70%;
 }
 
-.jumbotron .jumbo-down .paragraph .p-element {
-    margin-bottom: 20px;
+.jumbotron .jumbo-down .image img {
+    width: 100%;
+}
+
+.jumbotron .jumbo-down .paragraph {
+    width: 30%;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.jumbotron .jumbo-down .paragraph > * {
+    margin-bottom: 25px;
 }
 
 .jumbo-down .button {
-    padding: 15px;
+    padding: 10px;
 }
 
-.jumbotron .jumbo-down .image {
-    position: absolute;
-    left: 800px;
-    top: 550px
-}
-.jumbotron .jumbo-down .image img {
-  max-width: 1000px;
-}
 
 .arrow-down {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
-    margin-top: 80px;
 }
 
 .main-centered-container {
